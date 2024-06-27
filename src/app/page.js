@@ -13,7 +13,8 @@ export default function Home() {
         width: "500px",
       }}
     >
-      
+        <h1>Home page</h1>
+       <Link href="/about">About</Link>
     
     </div>
   );
