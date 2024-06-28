@@ -1,0 +1,21 @@
+/* Total width of scrollbar */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Background of the scrollbar track */
+::-webkit-scrollbar-track {
+  background: #000000;
+  border-radius: 10px;
+}
+
+/* Background of the draggable part of the scrollbar */
+::-webkit-scrollbar-thumb {
+  background: #818185;
+  border-radius: 10px;
+}
+
+/* Hover state for the scrollbar thumb */
+::-webkit-scrollbar-thumb:hover {
+  background: #d3cfcf;
+}
