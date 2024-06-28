@@ -1,4 +1,4 @@
-import Link from "next/link";
+// import Link from "next/link";
 
 export const metadata = {
   title: "Next Template | Home",
@@ -13,8 +13,8 @@ export default function Home() {
         width: "500px",
       }}
     >
-      <h1>Home page</h1>
-      <Link href="/about">About</Link>
+      {/* <h1>Home page</h1>
+      <Link href="/about">About</Link> */}
     </div>
   );
 }
