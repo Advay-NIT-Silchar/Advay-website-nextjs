@@ -1,17 +1,39 @@
-// @tailwind base;
-// @tailwind components;
-// @tailwind utilities;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-body {
-  background-color: black;
-  color: white;
-  overflow: hidden;
+// body {
+//   background-color: black;
+//   color: white;
+//   overflow: hidden;
+// }
+
+// .loader {
+//   display: flex;
+//   width: 100vw;
+//   height: 100vh;
+//   justify-content: center;
+//   align-items: center;
+// }
+/* Total width of scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
 }
 
-.loader {
-  display: flex;
-  width: 100vw;
-  height: 100vh;
-  justify-content: center;
-  align-items: center;
+/* Background of the scrollbar track */
+::-webkit-scrollbar-track {
+  background: #000000;
+  border-radius: 10px;
 }
+
+/* Background of the draggable part of the scrollbar */
+::-webkit-scrollbar-thumb {
+  background: #818185;
+  border-radius: 10px;
+}
+
+/* Hover state for the scrollbar thumb */
+::-webkit-scrollbar-thumb:hover {
+  background: #d3cfcf;
+}
+
