@@ -16,3 +16,18 @@
 //   justify-content: center;
 //   align-items: center;
 // }
+
+//Horizontal scrollbar
+  .card-events::-webkit-scrollbar {
+    height: 12px; 
+  }
+  
+  .card-events::-webkit-scrollbar-thumb {
+    background-color: #d94b4b; 
+    border-radius: 10px; 
+  }
+  
+  .card-events::-webkit-scrollbar-track {
+    background-color: #f1f1f1; 
+    border-radius: 10px; 
+  }
