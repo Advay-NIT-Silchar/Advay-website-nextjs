@@ -3,6 +3,7 @@
 import { useState } from "react";
 
 import { Menu, X } from "lucide-react";
+import Image from "next/image";
 
 const Navbar = () => {
   const [isClick, setisClick] = useState(false);
@@ -11,6 +12,7 @@ const Navbar = () => {
   };
   return (
     <>
+      {/* eslint-disable-next-line @next/next/no-css-tags */}
       <link href="./output.css" rel="stylesheet"></link>
       <nav className="bg-black/10 backdrop-filter backdrop-saturate-180 backdrop-blur-sm rounded-3xl mx-9 my-5">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -18,10 +20,12 @@ const Navbar = () => {
             <div className="flex items-center">
               <div className="flex-shrink-0">
                 <a href="/" className="text-white">
-                  <img
+                 <Image
+                  src="/images/Drama-Logo (Navbar).png"
                     className="w-21 h-20 "
-                    src="./images/Drama-Logo (Navbar).png"
-                    alt="logo"
+                     alt="logo"
+                     width="160"
+                     height="20"
                   />
                 </a>
               </div>
