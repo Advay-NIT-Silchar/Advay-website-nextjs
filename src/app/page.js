@@ -8,8 +8,8 @@ export default function Home() {
   return (
     <div
       style={{
-        height: "500px",
-        width: "500px",
+        height: "100vh",
+        width: "100vw",
       }}
     >
       {/* <h1>Home page</h1>
