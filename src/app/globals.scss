@@ -37,3 +37,15 @@
   background: #d3cfcf;
 }
 
+.transform-3d {
+  transform-style: preserve-3d;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+}
+
+@font-face {
+  font-family: "Eagle";
+  src: url("/Advay-website-nextjs/public/EagleLake-Regular.ttf") format("opentype");
+}

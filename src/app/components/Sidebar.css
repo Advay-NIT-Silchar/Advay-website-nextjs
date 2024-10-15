@@ -57,11 +57,12 @@
   .social-media-icons {
     top: auto;
     bottom: 10px;
-    left: 50%;
+    left: 35%;
     transform: translateX(-50%);
     flex-direction: row;
     padding: 5px;
     border-radius: 10px;
+    
   }
 
   .social-media-icons .icon {

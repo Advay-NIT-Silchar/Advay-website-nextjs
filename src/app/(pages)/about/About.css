@@ -1,0 +1,33 @@
+.about-us-container {
+    background-image: url('https://res.cloudinary.com/dqlnb4ddv/image/upload/v1728995301/space_bg_gqgrxu.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: white;
+  }
+  
+  .about-us-content {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    width: 50%;
+    text-align: center;
+  }
+  
+  .about-us-content h1 {
+    font-family: 'Georgia', serif;
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #f5f5f5;
+  }
+  
+  .about-us-content p {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    font-size: 1rem;
+    color: #ddd;
+  }
+  
