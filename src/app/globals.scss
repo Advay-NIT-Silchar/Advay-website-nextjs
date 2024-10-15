@@ -2,11 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
-// body {
-//   background-color: black;
-//   color: white;
-//   overflow: hidden;
-// }
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+  background-color: black;
+  color: white;
+  overflow-x: hidden;
+}
 
 // .loader {
 //   display: flex;
@@ -16,3 +21,14 @@
 //   align-items: center;
 // }
 /* Total width of scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #fa9612;
+  border-radius: 5px;
+}
+html {
+  scroll-behavior: smooth !important;
+  -webkit-font-smoothing: antialiased;
+}

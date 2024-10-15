@@ -1,6 +1,6 @@
 import Sidebar from "./components/Sidebar";
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
+import Navbar from "./components/Navbar/Navbar";
+import Footer from "./components/Footer/Footer";
 import "./globals.scss";
 
 
@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
         <Sidebar />
         
         {children}
-        <Footer/>
+        <Footer id="footer"/>
       </body>
     </html>
   );
