@@ -8,12 +8,12 @@ export const metadata = {
 export default function Home() {
   return (
     <div
-      style={{
-        height: "500px",
-        width: "500px",
-      }}
+    // style={{
+    //   height: "50px",
+    //   width: "500px",
+    // }}
     >
-      <h1>Home page</h1>
+      {/* <h1>Home page</h1> */}
       <Link href="/about">About</Link>
     </div>
   );

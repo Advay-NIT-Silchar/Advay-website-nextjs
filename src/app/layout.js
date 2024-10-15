@@ -1,4 +1,5 @@
 import "./globals.scss";
+import Animation from "./components/App";
 
 export const metadata = {
   title: "Next App Template : Sahin",
@@ -8,7 +9,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        {children}
+        <Animation />
+      </body>
     </html>
   );
 }
