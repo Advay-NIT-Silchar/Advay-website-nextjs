@@ -1,6 +1,7 @@
 // import React from 'react';
 
 import "./App.css";
+import Image from "next/image";
 // import logo from '/public/images/logo.png'; // Place your logo image in the src folder
 // import leftCurtain from '/public/images/curtainleft.png'; // Place the left curtain image in the src folder
 // import rightCurtain from '/public/images/curtainright.png';
@@ -15,7 +16,7 @@ const App = () => {
     <div className="App">
       <header className="App-header">
         <div className="curtains">
-          <img
+          <Image
             src="/images/curtainleft.png"
             className="left-curtain"
             alt="left curtain"
@@ -23,7 +24,7 @@ const App = () => {
         </div>
 
         <div className="curtain2">
-          <img
+          <Image
             src="/images/curtainright.png"
             className="right-curtain"
             alt="right curtain"
@@ -31,7 +32,7 @@ const App = () => {
         </div>
 
         <div className="content">
-          <img src="/images/logo.png" className="App-logo" alt="App logo" />
+          <Image src="/images/logo.png" className="App-logo" alt="App logo" />
           <h1>Coming soon...</h1>
         </div>
       </header>
