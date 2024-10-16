@@ -11,12 +11,12 @@ const sixty= Sixtyfour({
 const Landing = () => {
   return (
     <div className={`${styles.Landing} ${sixty.className}`}>
-        <Image src="/images/back.jpeg" fill alt="back" />
+        <Image src="/images/back.webp" fill alt="back" />
       <div className={styles.leftCurtain}>
-        <Image src="/images/curtainLeft.png" fill alt="leftCurtain" />
+        <Image src="/images/curtainLeft.webp" fill alt="leftCurtain" />
       </div>
       <div className={styles.rightCurtain}>
-        <Image src="/images/curtainRight.png" fill alt="rightCurtain" />
+        <Image src="/images/curtainRight.webp" fill alt="rightCurtain" />
       </div>
       <div className={styles.logo}>
         <Image src="/images/Drama-Logo.webp" fill alt="logo" />
