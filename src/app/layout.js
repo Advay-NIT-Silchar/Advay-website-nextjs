@@ -1,10 +1,17 @@
-import Sidebar from "./components/Sidebar";
-import "./globals.scss";
+import { Roboto } from "next/font/google";
 import Events from "./(pages)/about/Events";
-import bg1 from "./components/spacebg.jpg";
 import About from "./(pages)/about/about";
+import Sidebar from "./components/Sidebar";
+import Navbar from "./components/Navbar/Navbar";
+import Footer from "./components/Footer/Footer";
+import "./globals.scss";
 
-
+const roboto = Roboto({
+  weight: ['400', '700'],
+  style: [ 'italic'],
+  subsets: ['latin'],
+  display: 'swap',
+})
 
 export const metadata = {
   title: "Advay NIT Silchar",
@@ -13,8 +20,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body style={{ backgroundImage: `url(${bg1})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
-        
+      <body className={roboto.className} >
+        <Navbar/>
         <Sidebar />
         <About/>
         <Events/>
@@ -22,6 +29,7 @@ export default function RootLayout({ children }) {
         
         
         {children}
+        <Footer id="footer"/>
       </body>
     </html>
   );

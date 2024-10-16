@@ -1,0 +1,47 @@
+.Footer{
+    width: 100vw;
+    display: flex;
+    height: fit-content;
+    position: relative;
+    justify-content: space-evenly;
+    color: white;
+    padding: 10rem 5rem;
+    text-align: center;
+    font-size: 1.5rem;
+    gap: 2rem;
+    h3{
+        font-size: 2.5rem;
+    }
+    img{
+        z-index: -1;
+    }
+    .logo{
+        width: 25vw;
+        height: 10vw;
+        position: relative;
+    }
+    @media screen and (max-width: 1080px){
+        
+        padding: 6rem 3rem;
+        font-size: 1rem;
+        gap: 1rem;
+        h3{
+            font-size: 1.2rem;
+        }
+        
+    }
+    @media screen and (max-width: 768px){
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem 2rem;
+        font-size: 0.8rem;
+        h3{
+            font-size: 1.5rem;
+        }
+        .logo{
+            width: 40vw;
+            height: 15vw;
+        }
+        
+    }
+}
