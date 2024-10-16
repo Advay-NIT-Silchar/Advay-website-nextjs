@@ -29,10 +29,12 @@ const About = () => {
       </div>
 
       {/* Bottom Image */}
-      <Image
-        src="https://res.cloudinary.com/dqlnb4ddv/image/upload/v1729000062/pngegg_sha1sr.png"
-        alt="Bottom decoration"
-        className="absolute bottom-0 w-full object-contain h-16 sm:h-24 md:h-32 lg:h-40 sm:-mb-8"
+      <Image 
+        src="https://res.cloudinary.com/dqlnb4ddv/image/upload/v1729000062/pngegg_sha1sr.png" 
+        alt="Bottom decoration" 
+        width={200} // Specify the width in pixels
+        height={200} // Specify the height in pixels (adjust according to your needs)
+        className="absolute bottom-0 object-contain" // Adjust className as needed
       />
     </div>
   );
