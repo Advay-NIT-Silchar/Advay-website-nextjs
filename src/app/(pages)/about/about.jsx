@@ -1,3 +1,6 @@
+import Image from "next/image";
+
+
 const About = () => {
   return (
     <div
@@ -26,7 +29,7 @@ const About = () => {
       </div>
 
       {/* Bottom Image */}
-      <img
+      <Image
         src="https://res.cloudinary.com/dqlnb4ddv/image/upload/v1729000062/pngegg_sha1sr.png"
         alt="Bottom decoration"
         className="absolute bottom-0 w-full object-contain h-16 sm:h-24 md:h-32 lg:h-40 sm:-mb-8"
