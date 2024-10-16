@@ -11,15 +11,15 @@ const sixty= Sixtyfour({
 const Landing = () => {
   return (
     <div className={`${styles.Landing} ${sixty.className}`}>
-        <Image src="/images/back.webp" fill alt="back" />
+        <Image src="https://res.cloudinary.com/sahincloudinary/image/upload/f_auto,q_auto/v1/Advay/back" fill alt="back" />
       <div className={styles.leftCurtain}>
-        <Image src="/images/curtainLeft.webp" fill alt="leftCurtain" />
+        <Image src="https://res.cloudinary.com/sahincloudinary/image/upload/f_auto,q_auto/v1/Advay/leftCurtain" fill alt="leftCurtain" />
       </div>
       <div className={styles.rightCurtain}>
-        <Image src="/images/curtainRight.webp" fill alt="rightCurtain" />
+        <Image src="https://res.cloudinary.com/sahincloudinary/image/upload/f_auto,q_auto/v1/Advay/rightCurtain" fill alt="rightCurtain" />
       </div>
       <div className={styles.logo}>
-        <Image src="/images/Drama-Logo.webp" fill alt="logo" />
+        <Image src="https://res.cloudinary.com/sahincloudinary/image/upload/f_auto,q_auto/v1/Advay/logo" fill alt="logo" />
       </div>
       <div className={styles.title}>Coming soon
         <span>.</span><span>.</span><span>.</span>
