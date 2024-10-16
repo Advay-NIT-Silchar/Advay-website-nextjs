@@ -3,42 +3,42 @@
     {
       "reference": "Event 1",
       "order": "flex-row",
-      "name": "event 1",
+      "name": "Orientation",
       "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum. Curabitur sit amet justo nec lectus ornare viverra. Sed convallis libero vel diam auctor, et feugiat eros dapibus. Nullam id ligula euismod, vehicula lectus at, molestie eros.",
       "photo": "https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?cs=srgb&dl=pexels-padrinan-255379.jpg&fm=jpg"
     },
     {
       "reference": "Event 2",
       "order": "flex-row",
-      "name": "event 2",
+      "name": "Spotlight",
       "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum. Curabitur sit amet justo nec lectus ornare viverra. Sed convallis libero vel diam auctor, et feugiat eros dapibus. Nullam id ligula euismod, vehicula lectus at, molestie eros.",
       "photo": "https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?cs=srgb&dl=pexels-padrinan-255379.jpg&fm=jpg"
     },
     {
       "reference": "Event 3",
       "order": "flex-row",
-      "name": "event 3",
+      "name": "Nukkad Natak",
       "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum. Curabitur sit amet justo nec lectus ornare viverra. Sed convallis libero vel diam auctor, et feugiat eros dapibus. Nullam id ligula euismod, vehicula lectus at, molestie eros.",
       "photo": "https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?cs=srgb&dl=pexels-padrinan-255379.jpg&fm=jpg"
     },
     {
       "reference": "Event 4",
       "order": "flex-row",
-      "name": "event 4",
+      "name": "Cosplay",
       "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum. Curabitur sit amet justo nec lectus ornare viverra. Sed convallis libero vel diam auctor, et feugiat eros dapibus. Nullam id ligula euismod, vehicula lectus at, molestie eros.",
       "photo": "https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?cs=srgb&dl=pexels-padrinan-255379.jpg&fm=jpg"
     },
     {
       "reference": "Event 5",
       "order": "flex-row",
-      "name": "event 5",
+      "name": "MonoAct",
       "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum. Curabitur sit amet justo nec lectus ornare viverra. Sed convallis libero vel diam auctor, et feugiat eros dapibus. Nullam id ligula euismod, vehicula lectus at, molestie eros.",
       "photo": "https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?cs=srgb&dl=pexels-padrinan-255379.jpg&fm=jpg"
     },
     {
       "reference": "Event 6",
       "order": "flex-row",
-      "name": "event 5",
+      "name": "Farewell",
       "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum. Curabitur sit amet justo nec lectus ornare viverra. Sed convallis libero vel diam auctor, et feugiat eros dapibus. Nullam id ligula euismod, vehicula lectus at, molestie eros.",
       "photo": "https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?cs=srgb&dl=pexels-padrinan-255379.jpg&fm=jpg"
     }
