@@ -23,7 +23,7 @@ const Footer = () => {
           {" "}
           <Image src="/images/Drama-Logo.png" fill="true" alt="advay" />{" "}
         </div>
-        All right reserved
+        All right reserved @Advay, NIT Silchar
       </div>
       <div>
         <ul>
