@@ -32,7 +32,7 @@ const Navbar = () => {
     <div className={styles.Container}>
       <div className={styles.Navbar}>
         <div className={styles.logo}>
-          <Image src="/images/Drama-logo.png" alt="Logo" fill />
+          <Image src="https://res.cloudinary.com/sahincloudinary/image/upload/f_auto,q_auto/v1/Advay/logo" alt="Logo" fill="true" />
         </div>
         {ham && (
           <button onClick={handleHam} className={styles.hamburger}>
