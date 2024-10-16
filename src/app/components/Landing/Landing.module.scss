@@ -1,0 +1,95 @@
+.Landing{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    position: relative;
+    img{
+        z-index: -1;
+    }
+    .title{
+        font-size: 2.5rem;
+        font-weight: 700;
+        margin-bottom: 20px;
+        animation: titleAnimation 2s ease-in-out forwards;
+        @keyframes titleAnimation{
+            0%{
+                transform: translateY(50vh);
+            }
+            100%{
+                transform: translateY(0);
+
+            }
+            
+        }
+        @media screen and (max-width: 768px){
+            font-size: 1.2rem;
+        }
+        @media screen and (max-width: 576px){
+            font-size: 0.8rem;
+        }
+        
+    }
+    .leftCurtain{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 65%;
+        height: 100%;
+        z-index: 1;
+        animation: leftCurtainAnimation 2s ease-in-out forwards;
+        @keyframes leftCurtainAnimation{
+            0%{
+                width: 65%;
+            }
+            100%{
+                width: 0;
+            }
+            
+        }
+    }
+    .rightCurtain{
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 65%;
+        height: 100%;
+        z-index: 1;
+        animation: rightCurtainAnimation 2s ease-in-out forwards;
+        @keyframes rightCurtainAnimation{
+            0%{
+                width: 65%;
+            }
+            100%{
+                width: 0;
+            }
+        }
+    }
+    .logo{
+        width: 25rem;
+        height: 12rem;
+        margin-bottom: 20px;
+        position: relative;
+        animation: logoAnimation 2s ease-in-out forwards;
+        @keyframes logoAnimation{
+            0%{
+                transform: scale(0);
+            }
+            100%{
+                transform: scale(1);
+            }
+            
+        }
+        @media screen and (max-width: 768px){
+            width: 20rem;
+            height: 10rem;
+            
+        }
+        @media screen and (max-width: 576px){
+            width: 15rem;
+            height: 7rem;
+            
+        }
+    }
+}

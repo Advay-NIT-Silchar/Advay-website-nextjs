@@ -11,6 +11,7 @@
   border-radius: 30px;
   box-shadow: 0px 0px 10px rgba(253, 251, 251, 0.5);
   animation: infiniteMovement 2s infinite; /*Apply the infinite movement animation  */
+  z-index: 1000;
 }
 .social-media-icons:hover {
   animation-play-state: paused; /* Pause the animation on hover */
@@ -82,4 +83,24 @@
   100% {
     transform: translateY(0);
   }
+}
+
+@media screen and (max-width: 600px) {
+  .social-media-icons {
+    top: auto;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    flex-direction: row;
+    padding: 5px;
+    border-radius: 10px;
+  }
+
+  .social-media-icons .icon {
+    margin: 0 5px;
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+  }
+  
 }
