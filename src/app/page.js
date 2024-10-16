@@ -1,5 +1,7 @@
 // import Link from "next/link";
 
+import Sponsor from "./components/Sponsors/Sponsors";
+
 export const metadata = {
   title: "Advay NIT Silchar | Home",
 };
@@ -7,13 +9,18 @@ export const metadata = {
 export default function Home() {
   return (
     <div
-    // style={{
-    //   height: "50px",
-    //   width: "500px",
-    // }}
+      style={{
+        paddingTop: "5rem",
+      }}
     >
-      <h1>Home page</h1>
-      {/* <Link href="/about">About</Link> */}
+      <div
+        style={{
+          height: "100vh",
+        }}
+      ></div>
+      {/* <h1>Home page</h1>
+      <Link href="/about">About</Link> */}
+      <Sponsor title="sponsor" id="sponsors" />
     </div>
   );
 }
