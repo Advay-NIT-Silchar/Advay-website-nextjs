@@ -4,6 +4,7 @@ import EventsData from "./events.json";
 const Events = () => {
     const styles = {
         eventWrapper: {
+            
             overflowX: 'hidden',
             width: '100%',
             display: 'flex',
@@ -17,7 +18,7 @@ const Events = () => {
         eventHeading: {
             height: 'auto',
             width: '300px',
-            margin: '40px auto 0',
+            margin: '50px auto 0',
             fontSize: '80px',
             textAlign: 'center',
             fontWeight: '800',
@@ -29,6 +30,7 @@ const Events = () => {
             display: 'flex',
             flexWrap: 'wrap', // Wrap event cards in desktop view
             justifyContent: 'center', // Center the cards
+            
         },
         // Style for each EventCard on desktop
         eventCardDesktop: {
@@ -40,9 +42,10 @@ const Events = () => {
         '@media (max-width: 450px)': {
             eventBg: {
                 display: 'block', // Stack cards vertically on mobile
-                marginLeft: '0px',
+                
                 marginTop: '30px',
                 width: '100vw',
+                justifyContent:'center'
             },
             eventCardDesktop: {
                 margin: '10px 0', // Adjust margin for stacked layout

@@ -1,8 +1,10 @@
 // import Link from "next/link";
 
 // import Landing from "./components/App";
+
 import Landing from "./components/Landing/Landing";
 import Sponsor from "./components/Sponsors/Sponsors";
+
 
 export const metadata = {
   title: "Advay NIT Silchar | Home",
@@ -25,6 +27,7 @@ export default function Home() {
       {/* <Landing/> */}
       <Landing/>
       <Sponsor title="sponsor" id="sponsors" />
+      
     </div>
   );
 }
