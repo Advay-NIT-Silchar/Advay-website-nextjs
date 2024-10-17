@@ -1,5 +1,5 @@
 import EventCard from '@/app/components/EventsCard';
-import EventsData from "./events.json";
+import EventsData from "./event";
 
 const Events = () => {
     const styles = {
@@ -64,7 +64,7 @@ const Events = () => {
             <div className='font-Eagle' style={styles.eventHeading}>Events</div>
             <div style={styles.eventBg}>
                 {EventsData.events.map((item) => (
-                    <div  style={styles.eventCardDesktop}> {/* Use a unique key */}
+                    <div  style={styles.eventCardDesktop} key={item.reference}> {/* Use a unique key */}
                         <EventCard
                             title1={item.name}
                             content={item.desc}

@@ -22,14 +22,14 @@ const EventCard = ({ content, title1, id, image }) => {
             <div className={styles.backSide}>
               <h1 className={styles.backHead}>{title1}</h1>
               <p className={styles.para}>{content}</p>
-              <div className={styles.buttons}>
+              {/* <div className={styles.buttons}>
                 <a href='www.google.com' className={styles.btn}>
                   Register
                 </a>
                 <a href='www.google.com' className={styles.btn}>
                  Details
                 </a>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

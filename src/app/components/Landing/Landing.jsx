@@ -21,9 +21,9 @@ const Landing = () => {
       <div className={styles.logo}>
         <Image src="https://res.cloudinary.com/sahincloudinary/image/upload/f_auto,q_auto/v1/Advay/logo" fill alt="logo" />
       </div>
-      <div className={styles.title}>Coming soon
+      {/* <div className={styles.title}>Coming soon
         <span>.</span><span>.</span><span>.</span>
-      </div>
+      </div> */}
     </div>
   );
 };
