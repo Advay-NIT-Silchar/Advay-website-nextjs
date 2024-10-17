@@ -1,0 +1,47 @@
+{
+  "events": [
+    {
+      "reference": "Event 1",
+      "order": "flex-row",
+      "name": "Orientation",
+      "desc": "Greetings, Batch of 2028! Join ADVAY, the Dramatics Club of NIT Silchar, for our Orientation Program on October 17th at 6 PM in G306. Discover opportunities in acting, directing, and scriptwriting, and begin your exciting theatrical journey with us!",
+      "photo": "https://res.cloudinary.com/dqlnb4ddv/image/upload/v1729114566/orientation_fvjfe0.jpg"
+    },
+    {
+      "reference": "Event 2",
+      "order": "flex-row",
+      "name": "Spotlight",
+      "desc": "Join ADVAY at NIT Silchar to unleash your creativity! Participate in our thrilling auditions and showcase your talents. This is your chance to shine, connect with fellow artists, and become an integral part of our vibrant theatrical community!",
+      "photo": "https://res.cloudinary.com/dqlnb4ddv/image/upload/v1729114575/Snapinsta.app_418734903_898553748940186_6032605308882408935_n_1080_o4ubna.jpg"
+    },
+    {
+      "reference": "Event 3",
+      "order": "flex-row",
+      "name": "Nukkad Natak",
+      "desc": "Experience the magic of street theater with ADVAY's Nukkad Natak! Join us as we explore social themes through vibrant performances, engaging storytelling, and community interaction. Be part of this unique artistic expression that brings drama to the heart of the streets!",
+      "photo": "https://res.cloudinary.com/dqlnb4ddv/image/upload/v1729115220/IMG_20240226_132002_dmi1dj.jpg"
+    },
+    {
+      "reference": "Event 4",
+      "order": "flex-row",
+      "name": "Cosplay",
+      "desc": "Step into a world of creativity at ADVAY's Cosplay event! Embrace your favorite characters and express your passion for cosplay. Join fellow enthusiasts for a day filled with vibrant costumes, exciting performances, and engaging activities. Celebrate the art of transformation and showcase your creativity in a welcoming community atmosphere!",
+      "photo": "https://res.cloudinary.com/dqlnb4ddv/image/upload/v1729114582/Snapinsta.app_429956969_2721657624655458_8093639973509237070_n_1080_bpcb2p.jpg"
+    },
+    {
+      "reference": "Event 5",
+      "order": "flex-row",
+      "name": "MonoAct",
+      "desc": "Join us for ADVAY's Monoact event, where individual performers take the spotlight! Experience powerful storytelling through solo performances that captivate and inspire. Participants will showcase their talents in acting, voice modulation, and emotional expression, making this a memorable evening of creativity and theatrical artistry. Don't miss this unique experience!",
+      "photo": "https://res.cloudinary.com/dqlnb4ddv/image/upload/v1729115500/spotlight_xq4mlj.jpg"
+    },
+    {
+      "reference": "Event 6",
+      "order": "flex-row",
+      "name": "Farewell",
+      "desc": "Join ADVAY for a heartfelt Farewell event as we celebrate memories, friendships, and achievements. Experience a night filled with emotional performances, nostalgic moments, and heartfelt speeches. Let’s bid farewell to the outgoing members while welcoming new beginnings, ensuring that the spirit of ADVAY continues to thrive in our hearts!",
+      "photo": "https://res.cloudinary.com/dqlnb4ddv/image/upload/v1729114750/IMG-20240422-WA0041_kpqvkf.jpg"
+    }
+  ]
+}
+

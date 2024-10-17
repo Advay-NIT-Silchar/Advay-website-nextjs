@@ -8,7 +8,7 @@ import "./Sidebar.css";
 
 const Sidebar = () => {
   return (
-    <div className="social-media-icons">
+    <div className="social-media-icons z-10">
       <a
         href="https://www.facebook.com/advaynits"
         target="_blank"
