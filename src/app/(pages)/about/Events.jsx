@@ -60,7 +60,7 @@ const Events = () => {
     };
 
     return (
-        <div style={styles.eventWrapper}>
+        <div style={styles.eventWrapper} id="events">
             <div className='font-Eagle' style={styles.eventHeading}>Events</div>
             <div style={styles.eventBg}>
                 {EventsData.events.map((item) => (

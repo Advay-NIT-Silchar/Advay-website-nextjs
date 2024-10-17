@@ -4,6 +4,7 @@ import Image from "next/image";
 const About = () => {
   return (
     <div
+    id="about"
       className="relative flex flex-col items-center justify-center min-h-screen w-full bg-cover bg-center"
       style={{ backgroundImage: "url('https://res.cloudinary.com/dqlnb4ddv/image/upload/v1728995301/space_bg_gqgrxu.jpg')" }}
     >
